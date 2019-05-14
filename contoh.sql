@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 13 Bulan Mei 2019 pada 03.24
+-- Waktu pembuatan: 14 Bulan Mei 2019 pada 09.16
 -- Versi server: 10.1.37-MariaDB
 -- Versi PHP: 7.3.1
 
@@ -41,9 +41,11 @@ CREATE TABLE `blog` (
 --
 
 INSERT INTO `blog` (`id`, `namamasakan`, `bahan`, `langkah`, `waktu`) VALUES
-(31, 'Sambal Manis Tempoyak', 'a). 3 buah bawang merah, iris\r\n\r\nb). 5 sdm tempoyak durian\r\n\r\nc). Secukupnya gula\r\nSecukupnya garam\r\n\r\nDihaluskan:\r\na). 2 siung bawang putih\r\n\r\nb). 150 gram cabe merah\r\n', '1. 10 menit Goreng bawang merah hingga hilang bau langunya\r\n2. Masukkan bahan yang dihaluskan, tumis hingga agak mengering.\r\n3. Tambahkan tempoyak, gula dan garam.\r\n\r\n\r\n  \r\nMasak hingga mengental. Angkat.\r\n\r\n\r\n  ', '2019-03-05 17:31:43'),
-(32, 'Gandus', 'a). Tepung beras\r\nSantan\r\n\r\nb). Garam\r\n\r\nc). Cabe merah dipotong kecil\r\n\r\nd). Abon sapi\r\n\r\ne). Daun sop/seledri dipotong\r\n', '1. Panaskan santan dan beri garam aduk sampai mendidih\r\n2. Ambil wadah isi dengan tepung beras lalu siram dengan santan tadi\r\n3. Aduk terus setalah itu ambil cetakan bentuk apapun lalu isi sampai penuh dan setelah itu dikukus sampai matang\r\n4. Setelah gandus matang angkat lalu pisahkan dari cetakan\r\n5. Lalu setelah gandus dingin beri toping diatasnya daun seledri lalu abon sapi dan terakhir cabe merah kecil agar mempercantik\r\n6. Siap disantap', '2019-03-05 17:55:30'),
-(33, 'Pindang Ikan Patin', '* 500 gram ikan patin\r\n* 500 ml air\r\n\r\nHaluskan\r\n\r\n* 6 butir bawang merah\r\n* 4 siung bawang putih\r\n* 4 buah cabai merah besar\r\n\r\n* 4 cm lengkuas, iris tipis\r\n* 2 cm kunyit, iris tipis\r\n* 3 cm jahe, iris tipis\r\n* 2 batang serai, memarkan\r\n* 10 buah cabai rawit, biarkan utuh\r\n* 3 buah tomat hijau, belah empat\r\n* 1 mata asam jawa\r\n* 2 lembar daun salam\r\n* 1 sdm kecap manis\r\n* 1 Â½ sdt garam\r\n* 1 sdt gula merah, iris', ' 1. cuci ikan patin, lalu potong menjadi 5 bagian. Sisihkan.\r\n2. rebus air bersama bumbu halus, lengkuas, kunyit, jahe, dan serai sampai mendidih.\r\n3. masukkan ikan patin dan bumbu lainnya, masak di atas api kecil sampai ikan matang dan bumbu meresap. Angkat, sajikan dengan nasi hangat.', '2019-03-06 00:55:01');
+(33, 'Pindang Ikan Patin', '* 500 gram ikan patin\r\n* 500 ml air\r\n\r\nHaluskan\r\n\r\n* 6 butir bawang merah\r\n* 4 siung bawang putih\r\n* 4 buah cabai merah besar\r\n\r\n* 4 cm lengkuas, iris tipis\r\n* 2 cm kunyit, iris tipis\r\n* 3 cm jahe, iris tipis\r\n* 2 batang serai, memarkan\r\n* 10 buah cabai rawit, biarkan utuh\r\n* 3 buah tomat hijau, belah empat\r\n* 1 mata asam jawa\r\n* 2 lembar daun salam\r\n* 1 sdm kecap manis\r\n* 1 Â½ sdt garam\r\n* 1 sdt gula merah, iris', ' 1. cuci ikan patin, lalu potong menjadi 5 bagian. Sisihkan.\r\n2. rebus air bersama bumbu halus, lengkuas, kunyit, jahe, dan serai sampai mendidih.\r\n3. masukkan ikan patin dan bumbu lainnya, masak di atas api kecil sampai ikan matang dan bumbu meresap. Angkat, sajikan dengan nasi hangat.', '2019-03-06 00:55:01'),
+(35, 'Kue Gandus', ' a). Tepung beras\r\nSantan\r\n\r\nb). Garam\r\n\r\nc). Cabe merah dipotong kecil\r\n\r\nd). Abon sapi\r\n\r\ne). Daun sop/seledri dipotong\r\n', ' 1. Panaskan santan dan beri garam aduk sampai mendidih\r\n2. Ambil wadah isi dengan tepung beras lalu siram dengan santan tadi\r\n3. Aduk terus setalah itu ambil cetakan bentuk apapun lalu isi sampai penuh dan setelah itu dikukus sampai matang\r\n4. Setelah gandus matang angkat lalu pisahkan dari cetakan\r\n5. Lalu setelah gandus dingin beri toping diatasnya daun seledri lalu abon sapi dan terakhir cabe merah kecil agar mempercantik\r\n6. Siap disantap', '2019-05-13 21:49:55'),
+(36, 'Sambal Manis Tempoyak', ' a). 3 buah bawang merah, iris\r\n\r\nb). 5 sdm tempoyak durian\r\n\r\nc). Secukupnya gula\r\nSecukupnya garam\r\n\r\nDihaluskan:\r\na). 2 siung bawang putih\r\n\r\nb). 150 gram cabe merah\r\n', ' 1. 10 menit Goreng bawang merah hingga hilang bau langunya\r\n2. Masukkan bahan yang dihaluskan, tumis hingga agak mengering.\r\n3. Tambahkan tempoyak, gula dan garam.\r\n\r\n\r\n  \r\nMasak hingga mengental. Angkat.\r\n\r\n\r\n  ', '2019-05-13 21:51:03'),
+(37, 'nednwnwd s', ' ndcndncmsd', ' mdncdbd', '2019-05-14 02:10:25'),
+(38, ' ds bdsnbnsbdms', ' d  dm cmd cm', ' d dcxc ', '2019-05-14 02:10:42');
 
 -- --------------------------------------------------------
 
@@ -89,7 +91,11 @@ INSERT INTO `user` (`id`, `username`, `password`, `usia`, `nim`, `jurusan`, `bio
 (61, 'tiara', 'wewe', 14, 2147483647, 'Sistem Komputer', 'nbsdknhdfjiehfui', 'Perempuan', 'https://jhdjshjdbj', 'tiara@gmail.com', 'admin'),
 (62, 'tiara', 'wewe', 14, 2147483647, 'Sistem Komputer', 'nbsdknhdfjiehfui', 'Perempuan', 'https://jhdjshjdbj', 'tiara@gmail.com', 'admin'),
 (63, 'Tiara Khusnul Khotimah', 'yayak12', 19, 2147483647, 'Sistem Informasi', 'haiiii', 'Perempuan', 'https://jhdjshjdbj', 'tiara@gmail.com', 'manager'),
-(64, 'M Fikri', '22222', 19, 2147483647, 'Sistem Komputer', 'aaaaaaaaa', 'Perempuan', 'www.google', 'shahnazkhairunnisa2@gmail.com', 'admin');
+(64, 'M Fikri', '22222', 19, 2147483647, 'Sistem Komputer', 'aaaaaaaaa', 'Perempuan', 'www.google', 'shahnazkhairunnisa2@gmail.com', 'admin'),
+(65, 'baban', 'bubun', 19, 2147483647, 'Sistem Komputer', 'nbxnmaxbmzbxm', 'Laki - Laki', 'https://github.com/TiarakhusnulKhotimah/yayak.git', 'tiarakhusnulkhotimah017@gmail.com', 'admin'),
+(66, 'nopi', 'pita', 19, 2147483647, 'Sistem Komputer', 'cnhjkshk', 'Perempuan', 'https://github.com/TiarakhusnulKhotimah/yayak.git', 'tiarakhusnulkhotimah017@gmail.com', 'manager'),
+(67, 'juju', 'jaja', 19, 2147483647, 'Sistem Komputer', 'mnkjnkjn', 'Laki - Laki', 'https://github.com/TiarakhusnulKhotimah/yayak.git', 'tiarakhusnulkhotimah017@gmail.com', 'manager'),
+(68, 'baba', 'lklk', 13, 2147483647, 'Teknik Informatika', 'unhujhjh', 'Perempuan', 'https://github.com/TiarakhusnulKhotimah/yayak.git', 'tiarakhusnulkhotimah017@gmail.com', 'admin');
 
 --
 -- Indexes for dumped tables
@@ -115,13 +121,13 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT untuk tabel `blog`
 --
 ALTER TABLE `blog`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
 
 --
 -- AUTO_INCREMENT untuk tabel `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=69;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
